@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Untitled Document</title>
+<link href="jquery-ui.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+
+
+	<link href="keyboard.css" rel="stylesheet">
+	<script src="jquery.keyboard.js"></script>
+   
+
+	<link href="demo.css" rel="stylesheet">
+    <script src="jquery.jatt.min.js"></script> 
+   
+	
+    <script>
+	
+	$(document).ready(function(e) {
+		$('.qwerty').keyboard({
+		openOn   : null,
+	
+		layout   : 'qwerty'
+	});
+	$('#passwd').click(function(){
+		$('.qwerty').getkeyboard().reveal();
+	});
+        
+    });
+	
+	</script>
+	
+</head>
+
+<body>
+
+
+		
+		<input id="password" class="qwerty" type="text" placeholder="Enter something..."/><img id="passwd" class="tooltip" title="Click to open the virtual keyboard" src="keyboard.png">
+		
+		
+
+</body>
+</html>

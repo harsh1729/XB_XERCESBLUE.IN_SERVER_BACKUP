@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+    <name>bc_feedback</name>
+    <version>1.0.0.6</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow customers to offer feedback for your magento e- shop with our powerful feedback extension</summary>
+    <description>Magento, undoubtedly, is the best open source e-commerce solution around. The number of features and functionalities it offers is simply amazing. The default functionality of magento allows customers to review and write feedback about your products. However, with the dynamic Magento Feedback Extension from Biztech Consultancy, your customers will be able to do a bit more! Well, with our magento extension your customers can offer feedback for your entire magento e-commerce website in the easiest manner. 
+Product review is important for most of the customers as it allows them to make better purchase decisions. But what if customers can get feedback about an entire magento store? This certainly helps save their valuable time. This easy-to-use Magento Feedback Extension has been specially carved out for customers to write feedback about an entire magento website. What&#x2019;s more, as an admin, you have complete control over the feedback displayed about your magento store. The magento feedback extension can be easily managed from the back-end admin panel. It has been optimized to deliver consistent performance across multiple platforms.
+Exciting features offered by the Magento Feedback Extension
+&#x2022;	The customers are offered a user-friendly form which can be easily filled up in less time
+&#x2022;	The form allows customers to write detailed feedback in the manner they want
+&#x2022;	Easy installation &amp; deployment
+&#x2022;	Compatible with multiple magento community editions such as 1.4, 1.4.1.1, 1.4.2, 1.5, 1.6, 1.6.1, 1.6.2.0, 1.7
+&#x2022;	Feedback button display, Pop up display
+&#x2022;	Admin email configuration area for email recipients
+&#x2022;	Easily enable/disable the extension from admin area</description>
+    <notes>-Add recaptcha functionality</notes>
+    <authors><author><name>Biztech</name><user>auto-converted</user><email>sales@biztechconsultancy.com</email></author></authors>
+    <date>2014-04-03</date>
+    <time>10:04:29</time>
+    <contents><target name="magelocal"><dir name="Bc"><dir name="Bcall"><dir name="etc"><file name="adminhtml.xml" hash="b7bab61d935d181c017f36728fd4497a"/><file name="config.xml" hash="b04ecf114ba681ac31b057af49cb2219"/><file name="system.xml" hash="0481ac69f34911e7e216b47404b04052"/></dir><dir name="Helper"><file name="Data.php" hash="89bd8d7b99721ceaaf31d039cd27a381"/></dir></dir><dir name="Feedback"><dir name="Block"><file name="Feedback.php" hash="79437eefd19f20e8acba1320b0687e5f"/></dir><dir name="controllers"><file name="IndexController.php" hash="6099e3ff0903062f288ef85a38e7d0d4"/></dir><dir name="etc"><file name="adminhtml.xml" hash="b1654199bde32302ff359518686e4195"/><file name="config.xml" hash="f58edbaa3b44f1c9df642698459dd29d"/><file name="system.xml" hash="57e7eee2c5214c68a0934f34e6205f30"/></dir><dir name="Helper"><file name="Data.php" hash="af7c37e767eb0472e3615a58cbb637c4"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><dir name="Dropdown"><file name="Lang.php" hash="e83cda9c93a256286a924e1870e45f21"/><file name="Theme.php" hash="46130b103bc4f89aa23780c34a9e25fe"/></dir></dir></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><dir name="feedback"><file name="feedback.html" hash="fad80bccd037f798f48fb4208bb8871a"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="feedback"><dir name="css"><file name="popup.css" hash="8e43063d305f06a160cc2e0af72681aa"/></dir><dir name="images"><file name="ajax-loader-onestep.gif" hash="cf9953e0d5241b49c3dee9d0051cca3d"/><file name="closebox.png" hash="f2aace763cfcc4d6f3427a8a0842e55c"/><file name="feedbacktab.png" hash="f4efb82c0d823c56ee5cc37ebf9851f1"/><file name="general-btn.gif" hash="d04f8bf3e7bc194a031bb5b2ac7433ba"/><file name="general-input-bg.jpg" hash="5a63d17240be2d5acdd8d432c4e1caff"/><file name="i_msg-error.gif" hash="e4f28607f075a105e53fa3113d84bd26"/><file name="i_msg-success.gif" hash="834dfafd5f8b44c4b24a4c00add56fcf"/><file name="Thumbs.db" hash="57a3d87fce0750ab4bef582f209e4012"/></dir><dir name="js"><file name="popup.js" hash="7bab7fc8f428c2eb4318fa1a70ea409d"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="feedback.xml" hash="32a183a464fce0a65d8169cf80317916"/></dir><dir name="template"><dir name="feedback"><file name="popup_html.phtml" hash="6d6879969d575c4081630b811f79e54d"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Bc_Bcall.xml" hash="89be5607bd577a43766fdf8c17c03698"/><file name="Bc_Feedback.xml" hash="24ae9a181967f28f7444f32c79680c42"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

@@ -1,0 +1,1 @@
+[24-Jun-2017 12:14:42 Etc/GMT] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/xercewwv/public_html/onlinexamserver/liquid_data/database_connection.php on line 18
